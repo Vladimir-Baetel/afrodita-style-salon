@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afrodita Style</title>
+    <link rel="icon" type="image/x-icon" href="/afrodita-style-favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              coral: "#ff7f50",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="text-white">
+    <nav class="w-full fixed z-10 bg-black/50">
+      <div class="inner flex place-content-between">
+        <div class="flex my-auto">
+          <a href="#" class="text-4xl">🌸 Afrodita Style</a>
+        </div>
+        <div class="py-4 flex items-center gap-12 text-2xl">
+          <a href="#" class="hover:text-pink-400 transition delay-100">Acasa</a>
+          <a href="#galerie" class="hover:text-pink-400 transition delay-100"
+            >Galerie</a
+          >
+          <a href="#despre" class="hover:text-pink-400 transition delay-100"
+            >Despre</a
+          >
+          <a href="#preturi" class="hover:text-pink-400 transition delay-100"
+            >Preturi</a
+          >
+          <button
+            class="px-6 py-1 rounded-xl shadow-xl border-white border bg-pink-400/50 text-2xl hover:bg-pink-400 transition delay-100"
+          >
+            <a href="#contact"> Contact </a>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <header class="h-[66.66vh]">
+      <div class="h-full relative bg-black/50">
+        <video
+          class="w-full h-full absolute object-cover -z-10"
+          src="afrodita-style-video-bg.mp4"
+          autoplay
+          loop
+          muted
+          plays-inline
+        ></video>
+        <div class="inner flex flex-col items-center justify-center">
+          <h1 class="text-8xl">Afrodita Style</h1>
+          <h3 class="text-4xl text-pink-400 italic">Salon Cosmetica</h3>
+          <button
+            class="mt-8 px-6 py-1 rounded-xl shadow-xl border-white border bg-pink-400/50 text-2xl hover:bg-pink-400 transition delay-100"
+          >
+            <a href="#contact"> Contact </a>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="galerie" class="h-[33.33vh] bg-pink-300">
+        <div class="h-full inner flex flex-col">
+          <div class="h-full flex items-center gap-8">
+            <div
+              class="h-2/3 w-full flex items-center overflow-hidden rounded-xl shadow-xl"
+            >
+              <img src="galerie-1.jpg" alt="" class="w-full" />
+            </div>
+            <div
+              class="h-2/3 w-full flex items-center overflow-hidden rounded-xl shadow-xl"
+            >
+              <img src="galerie-2.jpg" alt="" class="w-full" />
+            </div>
+            <div
+              class="h-2/3 w-full flex items-center overflow-hidden rounded-xl shadow-xl"
+            >
+              <img src="galerie-3.jpg" alt="" class="w-full" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="despre" class="h-[50vh] bg-rose-100">
+        <div class="inner flex">
+          <div class="w-full h-full py-8">
+            <img src="despre.jpg" alt="" class="h-full rounded-xl shadow-xl" />
+          </div>
+          <div class="w-full h-full py-8 flex flex-col justify-evenly">
+            <p class="text-2xl text-black">
+              Bun venit la Afrodita Style, unde frumusețea devine o experiență!
+              Suntem o echipă dedicată, pasionată să aducă strălucire și
+              eleganță în viața fiecărui client. La Afrodita Style, oferim
+              servicii de înaltă calitate și cele mai recente tratamente
+              cosmetice pentru a vă redescoperi frumusețea interioară și
+              exterioară.
+            </p>
+
+            <p class="text-2xl text-black">
+              Cu specialiști experimentați în diverse domenii ale
+              înfrumusețării, suntem aici să vă ghidăm în călătoria către o
+              piele sănătoasă, un machiaj impecabil și un păr strălucitor.
+              Atmosfera noastră prietenoasă vă oferă o evadare din agitația
+              zilnică, iar echipa noastră este aici pentru a vă oferi servicii
+              personalizate și sfaturi de încredere.
+            </p>
+
+            <p class="text-2xl text-black">
+              La Afrodita Style, vă invităm să descoperiți universul nostru de
+              frumusețe și rafinament, unde fiecare vizită înseamnă relaxare,
+              revitalizare și răsfăț. Alăturați-vă nouă pentru a străluci în
+              toată splendoarea dumneavoastră naturală.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="preturi" class="h-[50vh] bg-pink-300">
+        <div class="inner flex">
+          <div
+            class="w-full h-full py-8 flex flex-col justify-evenly text-black"
+          >
+            <h1 class="text-4xl font-bold">
+              Afrodita Style - Lista de Prețuri
+            </h1>
+
+            <ul class="text-2xl">
+              <li>Curățare facială clasică - 120 lei</li>
+              <li>Machiaj de seară - 120 lei</li>
+              <li>Masaj relaxant (60 de minute) - 200 lei</li>
+              <li>Epilare cu ceară (picioare întregi) - 120 lei</li>
+              <li>Manichiură cu gel - 80 lei</li>
+              <li>Tratament exfoliant cu sare de mare - 150 lei</li>
+              <li>Pedichiură clasică - 70 lei</li>
+              <li>Aplicare unghii false - 120 lei</li>
+              <li>
+                Pachet Relaxare Totală (masaj, tratament facial, manichiură) -
+                350 lei
+              </li>
+              <li>
+                Abonament Lunar de Îngrijire a Pielii - 300 lei (include 3
+                tratamente faciale)
+              </li>
+            </ul>
+          </div>
+          <div class="w-full h-full pt-8 flex justify-end">
+            <img src="afrodita-style-woman.png" alt="" class="h-full" />
+          </div>
+        </div>
+      </section>
+      <section
+        id="contact"
+        class="h-[50vh] relative flex items-center justify-center"
+      >
+        <iframe
+          class="w-full h-full"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11391.613258912435!2d26.07917177947544!3d44.45565374658001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40569903294f89ef%3A0x52543f488ce7f58e!2sSalon%20Afrodita%20SPA!5e0!3m2!1sen!2sro!4v1700921307728!5m2!1sen!2sro"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="inner absolute flex items-center justify-end">
+          <div
+            id="contact-card"
+            class="w-1/3 h-2/3 rounded-xl shadow-xl text-2xl flex flex-col justify-evenly text-black p-8"
+          >
+            <p>
+              Pentru mai multe informații sau programări, ne puteți contacta la:
+            </p>
+
+            <ul>
+              <li>
+                Email:
+                <a href="mailto:info@afroditastyle.ro">info@afroditastyle.ro</a>
+              </li>
+              <li>Telefon: <a href="tel:+40123456789">+40 123 456 789</a></li>
+              <li>Adresă: Str. Frumuseții, nr. 10, București</li>
+            </ul>
+
+            <p>Vă așteptăm cu drag la Afrodita Style!</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-pink-300">
+      <div class="inner flex place-content-between text-black">
+        <div class="flex my-auto">
+          <a href="#" class="text-2xl">🌸 Afrodita Style</a>
+        </div>
+        <div class="py-2 flex text-2xl">
+          <p>Site facut pe smecherie 💪😎👍 de Vladimir Baetel</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
