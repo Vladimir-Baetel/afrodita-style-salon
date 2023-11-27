@@ -7,17 +7,10 @@
     <link rel="icon" type="image/x-icon" href="/afrodita-style-favicon.png" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              coral: "#ff7f50",
-            },
-          },
-        },
-      };
-    </script>
+    <script
+      src="https://kit.fontawesome.com/e03a9c76a7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="text-white">
     <nav class="w-full fixed z-10 bg-black/50">
@@ -26,18 +19,18 @@
           <a href="#" class="text-4xl">🌸 Afrodita Style</a>
         </div>
         <div class="py-4 flex items-center gap-12 text-2xl">
-          <a href="#" class="hover:text-pink-400 transition delay-100">Acasa</a>
-          <a href="#galerie" class="hover:text-pink-400 transition delay-100"
+          <a href="#" class="hover:text-rose-400 transition delay-100">Acasă</a>
+          <a href="#galerie" class="hover:text-rose-400 transition delay-100"
             >Galerie</a
           >
-          <a href="#despre" class="hover:text-pink-400 transition delay-100"
+          <a href="#despre" class="hover:text-rose-400 transition delay-100"
             >Despre</a
           >
-          <a href="#preturi" class="hover:text-pink-400 transition delay-100"
-            >Preturi</a
+          <a href="#preturi" class="hover:text-rose-400 transition delay-100"
+            >Prețuri</a
           >
           <button
-            class="px-6 py-1 rounded-xl shadow-xl border-white border bg-pink-400/50 text-2xl hover:bg-pink-400 transition delay-100"
+            class="px-6 py-1 rounded-xl shadow-xl border-white border text-2xl bg-rose-400 hover:bg-rose-500 transition delay-100"
           >
             <a href="#contact"> Contact </a>
           </button>
@@ -55,12 +48,14 @@
           plays-inline
         ></video>
         <div class="inner flex flex-col items-center justify-center">
-          <h1 class="text-8xl">Afrodita Style</h1>
-          <h3 class="text-4xl text-pink-400 italic">Salon Cosmetica</h3>
+          <h1 class="text-9xl">Afrodita Style</h1>
+          <h3 class="text-4xl text-rose-400 italic font-thin">
+            Salon de cosmetică şi înfrumusețare
+          </h3>
           <button
-            class="mt-8 px-6 py-1 rounded-xl shadow-xl border-white border bg-pink-400/50 text-2xl hover:bg-pink-400 transition delay-100"
+            class="mt-12 px-6 py-1 rounded-xl shadow-xl border-white border text-2xl bg-rose-400 hover:bg-rose-500 transition delay-100"
           >
-            <a href="#contact"> Contact </a>
+            <a href="#contact"> Programează-te </a>
           </button>
         </div>
       </div>
@@ -168,19 +163,26 @@
         <div class="inner absolute flex items-center justify-end">
           <div
             id="contact-card"
-            class="w-1/3 h-2/3 rounded-xl shadow-xl text-2xl flex flex-col justify-evenly text-black p-8"
+            class="w-1/3 h-1/2 p-8 relative rounded-xl shadow-xl text-xl flex flex-col justify-evenly text-black"
           >
+            <span class="absolute -top-4 -right-4 text-6xl">📌</span>
             <p>
               Pentru mai multe informații sau programări, ne puteți contacta la:
             </p>
 
             <ul>
               <li>
-                Email:
+                <i class="fa-solid fa-phone-volume text-rose-500 mr-2"></i>
+                <a href="tel:+40123456789">+40 123 456 789</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope text-rose-500 mr-2"></i>
                 <a href="mailto:info@afroditastyle.ro">info@afroditastyle.ro</a>
               </li>
-              <li>Telefon: <a href="tel:+40123456789">+40 123 456 789</a></li>
-              <li>Adresă: Str. Frumuseții, nr. 10, București</li>
+              <li>
+                <i class="fa-solid fa-map-location-dot text-rose-500 mr-2"></i>
+                Str. Frumuseții, nr. 10, București
+              </li>
             </ul>
 
             <p>Vă așteptăm cu drag la Afrodita Style!</p>
@@ -188,8 +190,8 @@
         </div>
       </section>
     </main>
-    <footer class="bg-pink-300">
-      <div class="inner flex place-content-between text-black">
+    <footer class="text-black">
+      <div class="inner flex place-content-between">
         <div class="flex my-auto">
           <a href="#" class="text-2xl">🌸 Afrodita Style</a>
         </div>
